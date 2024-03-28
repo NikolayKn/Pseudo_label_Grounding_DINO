@@ -8,8 +8,12 @@ __pycache__/
 
 # Distribution / packaging
 GroundingDINO
-GroundingDINO_weights/
-data/
+GroundingDINO_weights/*
+data/*
+
+# exception to the rule
+!GroundingDINO_weights/.gitkeep 
+!data/.gitkeep 
 
 
 # Jupyter Notebook
