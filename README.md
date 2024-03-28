@@ -23,12 +23,8 @@ git clone git@github.com:NikolayKn/Pseudo_label_Grounding_DINO.git
 sh setup.sh
 ```
 
-### Notebooks for Collab
-The self-explanatory notebooks can be found at ```notebooks``.
-
-
 
 ## Credits
 - [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO)
 - [Pascal VOC 2007](http://host.robots.ox.ac.uk/pascal/VOC/)
-- [Realization of mAP by Ultralitics](https://github.com/ultralytics/yolov5/blob/master/val.py)  
+- [ mAP realization by Ultralitics](https://github.com/ultralytics/yolov5/blob/master/val.py)  
