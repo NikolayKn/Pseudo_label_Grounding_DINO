@@ -23,6 +23,22 @@ git clone git@github.com:NikolayKn/Pseudo_label_Grounding_DINO.git
 sh setup.sh
 ```
 
+**Downloading VOC2007 dataset:**
+
+1.Activate the environment.
+
+```bash
+source .venv/bin/activate
+```
+
+2. Run the ```download_VOC.py``` script to download the VOC2007 Dataset.
+
+```bash
+python download_VOC.py
+```
+
+
+
 
 ## Credits
 - [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO)

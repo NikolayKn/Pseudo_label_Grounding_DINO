@@ -10,10 +10,12 @@ __pycache__/
 GroundingDINO
 GroundingDINO_weights/*
 data/*
+datasets/*
 
 # exception to the rule
 !GroundingDINO_weights/.gitkeep 
 !data/.gitkeep 
+!datasets/.gitkeep 
 
 
 # Jupyter Notebook
