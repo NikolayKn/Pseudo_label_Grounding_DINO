@@ -31,8 +31,8 @@ def main():
     # Convert
     path = data_dir + '/VOCdevkit'
     for year, image_set in ('2007', 'train'), ('2007', 'val'), ('2007', 'test'):
-        imgs_path = data_dir + '/images/' +  f'{image_set}{year}'
-        lbs_path = data_dir + '/labels/' + f'{image_set}{year}'
+        imgs_path = data_dir + '/images/' +  f'{image_set}'
+        lbs_path = data_dir + '/labels/' + f'{image_set}'
         imgs_path = Path(imgs_path)
         lbs_path = Path(lbs_path)
         imgs_path.mkdir(exist_ok=True, parents=True)

@@ -192,7 +192,7 @@ def compute_ap(recall, precision):
     return ap, mpre, mrec
 
 def count_metrics(det_loader, ann_loader):
-    stats, ap, ap_class = [], [], [], []
+    stats, ap, ap_class = [], [], []
     single_cls=False
 
     iouv = torch.linspace(0.5, 0.95, 10)  # iou vector for mAP@0.5:0.95

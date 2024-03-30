@@ -55,6 +55,7 @@ class AnnotationDF:
                 self.df_incorrect = pd.concat([self.df_incorrect, pd.DataFrame(new_row)], ignore_index=True)
     
     def save_annotations(self, save_dir):
+        os.makedirs(save_dir)
         if self.df.shape[0] != 0:
             df_filename = os.path.join(save_dir, 'annotations.parquet')
             self.df.to_parquet(df_filename)
